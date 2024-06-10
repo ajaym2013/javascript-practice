@@ -1,4 +1,4 @@
-// primitive
+// primitive (STACK)
 /*
 string
 number
@@ -17,4 +17,37 @@ let bankBalance = undefined
 const buttonId = symbol("id")
 const aLongNumber = 233535425456n
 
-//reference (non primitive)
+//reference (non primitive) (HEAP)
+
+/*
+Arrays
+Objects
+functions
+*/
+
+// array write that
+const numbers = [1,2,3,4,5]
+const heros = [
+    "superman",
+    "batman",
+    "spiderman"
+]
+
+// obejct write that
+const userObject = {
+name : "ajay",
+age : 20,
+isLoggedIn : false,
+}
+
+// funtion 
+const sayHello = funtion()
+{
+    console.log("ajay")
+}
+function sayhello()
+{
+    console.log("ajay")
+}
+const registerUser = funtion(){}
+const LoginUser = funtion(){}
