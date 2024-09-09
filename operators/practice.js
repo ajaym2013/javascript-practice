@@ -103,3 +103,18 @@ if (googleLoginToken || githubLoginToken)
 {
     console.log("please login to view your account"); 
 }
+
+
+let age = 19;
+const youGetLicense = false;
+
+if (age >= 18)
+{
+    console.log("you get the driving license");
+}else {
+    console.log("you dont get driving license");
+}
+// Ternary operator
+
+(age >= 18) ? youGetLicense = true : youGetLicense = false
+const getLicense = age >= 18 ? "true part" : "false"
