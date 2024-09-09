@@ -22,3 +22,84 @@ if (startIntNumber == 1)
 {
     console.log('i dont know rating');
 }
+
+// login  system
+
+// const email = 'ajay@gmail.com';
+
+// if (email )
+// {
+//     console.log('please ask for password');
+// }else{
+//     console.log('ask for email')
+// }
+// other ways
+// if (email == "ajay@gmail.com" )
+//     {
+//         console.log('please ask for password');
+//     }else{
+//         console.log('ask for email')
+//     }
+
+// if (email != "" )
+//         {
+//             console.log('please ask for password');
+//         }else{
+//             console.log('ask for email')
+//         }
+
+
+// truty valeus
+
+// falsy values
+/*
+false
+0  (-0 and BigInt 0n)
+"" empty string
+null
+undefined
+NaN
+*/
+
+// if user provide email and password then allow , else ask for it
+
+const email = "";
+const pswd = "";
+
+if (email)
+{
+    if (pswd)
+    {
+        console.log('redirect to login page');
+    }else {
+
+    }console.log('please enter your password');
+
+} else 
+{
+    console.log('please write email and password')
+}
+
+// Logical operations
+
+// && -> and ;   || -> OR 
+
+if (email && pswd)
+{
+    console.log('redirect to login page');
+} else{
+    console.log('please enter email and password')
+}
+
+// allow user to signin with google or github
+
+const googleLoginToken = "" ;
+const githubLoginToken = "" ;
+
+if (googleLoginToken || githubLoginToken)
+{
+    console.log("welcome to app");
+}else 
+{
+    console.log("please login to view your account"); 
+}
